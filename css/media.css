@@ -1,0 +1,7 @@
+header,
+footer,
+section {
+    overflow: hidden;
+}
+
+@media (max-width: 1320px) {}

@@ -1,0 +1,184 @@
+* li {
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header, section, .footer {
+    background: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: initial;
+}
+
+.container {
+    margin: 0 18%;
+    background-color: #D5E7EB;
+}
+
+.simple-text {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.main-medium-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 59px;
+    color: #60D604;
+    margin-left: 90px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.main-small-heading {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+}
+
+.mini-container {
+    padding: 4% 8%;
+}
+
+h1, h2, h3, p, li, ul {
+    margin: 0;
+}
+
+.box {
+    background: url(../image/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header__title {
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    color: #4B32E3;
+}
+
+/* swiper */
+
+.swiper {
+    padding-bottom: 60px;
+}
+
+.swiper-wrapper {
+    margin: 0 17%;
+    margin-bottom: 50px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+}
+
+.swiper-pagination {
+    position: inherit;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+
+:root {
+    --swiper-theme-color: #60D604;
+}
+
+/* acc */
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 0;
+    background: none;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0px 0px;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    font-size: 30px;
+}
+
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.ui-accordion-header-active {
+    color: #60D604;
+    -webkit-text-stroke-width: 0.04rem;
+    -webkit-text-stroke-color: black;
+
+}
+
+.ui-widget-content {
+    border: none;
+    background: none;
+}
+
+.map {
+    height: 600px;
+    width: 100%;
+}
+
+.map__descr {
+    margin-bottom: 50px;
+}
+
+.result__descr {
+    margin-bottom: 30px;
+}
+
+.footer__container {
+    border-top: 1px solid black;
+}
+
+.footer__mini-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer__text-box {
+    margin-bottom: 30px;
+}
+
+.footer__custom-text {
+    padding-left: 180px;
+}
+
+.footer__descr {
+    width: 80%;
+}
+
+.footer__descr:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.result__image {
+    width: 100%;
+}
