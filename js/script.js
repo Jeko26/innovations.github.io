@@ -40,5 +40,4 @@ var swiper = new Swiper(".swiper__container", {
 
     myMap.geoObjects
         .add(myPlacemark)
-        .add(myPlacemarkWithContent);
 });
